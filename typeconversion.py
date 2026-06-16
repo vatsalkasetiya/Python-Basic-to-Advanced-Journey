@@ -13,3 +13,13 @@ print(type(marks))
 string=str(marks)
 print(type(string))
 print(string+" marks")
+
+float_num=3.14
+int_num=int(float_num)
+print(int_num)
+print(type(int_num))
+
+marks=str(90)
+
+print(marks+ " marks")
+print(type(marks))
