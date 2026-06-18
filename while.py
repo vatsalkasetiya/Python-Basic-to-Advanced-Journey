@@ -109,12 +109,21 @@
 #         continue
 #     print(word[i])
 #     i+=1
+# i=1
+# num=int(input("enter number n:"))
+# while(i<=10):
+#     if(i==5):
+#         break
+#     print(num,"*",i,"=",i*num)
+#     i+=1
+
 i=1
-num=int(input("enter number n:"))
 while(i<=10):
-    if(i==5):
-        break
-    print(num,"*",i,"=",i*num)
+    if(i%2==0):
+        i+=1
+        continue
+    else:
+        print(i)
     i+=1
         
 
