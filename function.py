@@ -105,12 +105,68 @@
 # add=square(4)
 # print(add)
 
-n=int(input("enter n:"))
+# n=int(input("enter n:"))
 
-def fact(n):
-    factt=1
-    for i in range(1,n+1):
-        factt=factt*i
-    return factt
-ans=fact(n)
-print(ans)
+# def fact(n):
+#     factt=1
+#     for i in range(1,n+1):
+#         factt=factt*i
+#     return factt
+# ans=fact(n)
+# print(ans)
+
+
+# n=int(input("etner n:"))
+# def factorial(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact=fact*i
+#     return fact
+
+# ans=factorial(n)
+# print(ans)
+
+# salary=int(input("enter your salary:"))
+# if(salary<30000):
+#     tax=salary*0.05
+
+# elif(salary>=30000 and salary<70000):
+#     tax=salary*0.15
+
+# else:
+#     tax=salary*0.30
+# salary=salary-tax
+# print("tax",tax)
+# print("salary",salary)
+
+
+# def digit(n):
+#     for i in range(n):
+#         print(i)
+# digit(456)
+
+
+# def counter(number):
+#     count=0
+#     for i in number:
+#         count+=1
+#     return count
+# ans=counter("123443")
+# print(ans)
+
+# n=int(input("enter n:"))
+# def sum(n):
+#     total=0
+#     for i in range(1,n+1):
+#         total+=i
+#     return total
+# ans=sum(n)
+# print(ans)
+
+
+while True:
+    n=input("enter n:")
+    if(n=="quit"):
+        break
+    else:
+        print(n)
